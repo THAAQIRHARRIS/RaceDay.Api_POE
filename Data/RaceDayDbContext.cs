@@ -3,7 +3,6 @@ using RaceDay.Api.Models;
 
 namespace RaceDay.Api.Data;
 
-/// <summary>EF Core context. Fluent configuration mirrors the Part 1 ERD and SQL script.</summary>
 public class RaceDayDbContext : DbContext
 {
     public RaceDayDbContext(DbContextOptions<RaceDayDbContext> options) : base(options) { }
